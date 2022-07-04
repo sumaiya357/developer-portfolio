@@ -8,11 +8,15 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 130px;
 }
@@ -24,6 +28,18 @@ section {
 
 .half-width img {
     width: 70%;
+}
+
+.exp-item {
+    width: 40%;
+    padding-left: 3%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    padding: 10px;
+
+    box-shadow: 10px 10px 50px rgb(133, 125, 125);
 }
 
 .link-button {
@@ -46,4 +62,23 @@ section {
     background-position: right;
 
 
+}
+
+.experience {
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#full-stack {
+    border-left: 7px solid red;
+}
+
+#baby-stack {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
